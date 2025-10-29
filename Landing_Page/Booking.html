@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>Admission Form</title>
+   <style>
+label{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+    }
+   
+
+    
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(gogo.jpg);
+        background-repeat: no-repeat;
+        background: cover;
+    }
+    h1{
+        text-align: center;
+        font-size: 40;
+        justify-self: unset;
+background-color: bisque;
+
+    }
+    form {
+text-align: center;
+font-size: larger;
+    }
+    p{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+
+    }
+   </style>
+</head>
+<body >
+
+    <h1>Booking Form </h1>
+    <p>Please fill out the form below.</p>
+
+
+    <form action="submit" method="POST" >
+
+       
+
+            <label for="first_name">First Name:</label><br>
+            <input type="text" id="first_name" placeholder="Enter First Name" name="first_name" required><br><br>
+
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name" placeholder="Enter Last Name" name="last_name" required><br><br>
+
+          
+
+            
+           
+     
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            
+        
+  <label for="option">option</option></label>
+            <select id="option" name="Best_option" required>
+                <option value="select">--Select--</option>
+                <option value="Business_Class">Business_Class</option>
+                <option value="Economy_Class">Economy_Class</option>
+            </select><br>
+
+            <label for="flight_Detail's">Board</label>
+            <select id="Board" name="Board" required>
+                <option value="">--Select--</option>
+                <option value="Air_India">Air_India</option>
+                <option value="Emirates">Emirates</option>
+                <option value="Indigo">Indigo</option>
+                 <option value="Spice_jet">ISpice jet</option>
+            </select>
+
+
+        <br><br><input type="submit" value="Submit Application">
+    </form>
+
+</body>
+</html>
